@@ -59,7 +59,7 @@ header {
 
  article {
 	background-color:white;
-	margin: 68px 0 0 0;	
+	margin: 104px 0 0 0;	
 	width: 100%;
 }
 
@@ -73,6 +73,16 @@ p{
 	font-size: 1.2em;
 }
 
+h1 {
+	text-align: center;
+	font-size: 1.4em;
+	color: #333;
+	margin-top: 15px;
+}
+	
+.background {
+	background-color: lightblue;
+}
 /* IMG */
 
 section { 
@@ -83,23 +93,30 @@ section {
 section span { 
 		flex: auto; 
 		width: 200px; 
-		margin: auto; 
 	}
-	section span img { 
-		width: 320px; 
-		height: 320px; 
+section span img { 
+		width: auto; 
+		height: auto; 
 		margin: 40px 0 0 62px;
-
 	}
 	
 	
-h1 {
-	text-align: center;
-	font-size: 1.4em;
-	color: #333;
-	margin-top: 15px;
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+	left: 0;
+	bottom: 0;
+	height: 3vw;
+	margin: 50px 0 0 0;
+	font-size: 0.9em;
 }
-	
+
+.index {
+	position: fixed;
+
+}
 @media (min-width: 550px) {
 	
 /* HEADER */
